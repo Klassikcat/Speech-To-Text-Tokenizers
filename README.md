@@ -2,7 +2,12 @@
 
 ## introductions
 
-this repository contains simple tokenizers for Speech-To-Text tasks.
+this repository contains simple tokenizers for Speech-To-Text tasks. This tokenizer supports tokenization for
+these end-to-end STT Models.
+
+- CTC Model(requires `[BLANK]` token)
+- Attention Decoder Models(requires `[SOS]` and `[EOS]` tokens)
+- Transducer Model(requires `[BLANK]` token in front of the transcripts)
 
 ## installation
 
